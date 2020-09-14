@@ -5,7 +5,7 @@ function [X,Out] = GN_slrp(Afun,X,opts)
 %   maximize \|X*X' - A\|^2_F   
 %
 %   based on the paper "An efficient Gauss--Newton algorithm for symmetric 
-%       low-rank product matrix approximations." by Liu, Xin, Zaiwen Wen, and Yin Zhang.
+%       low-rank product matrix approximations." by Xin Liu, Zaiwen Wen, and Yin Zhang.
 %       SIAM Journal on Optimization 25.3 (2015): 1571-1608.
 %
 % 
